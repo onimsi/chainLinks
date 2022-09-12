@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chainlinkSite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <a href="#">Chainlink <span>Labs</span></a>
+        <ul>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Fellowship Program</a></li>
+            <li><a href="#">Startup with Chainlink</a></li>
+            <li><button class="but1" >See open roles</button></li>
+        </ul>
+        
+        <h3 class="next" onclick="toggleMenu()">hello</h3>
+    </header>
+ 
+    <p class="notice">
+        <a href="#" class="new">New</a>
+        <span>Attend SmartCon this Sept. 28-29, the Web3 conference of the year.</span>
+        <a href="#" class="">Register today</a>
+    </p>
+   
+    <div class="max">
+        <h2>Creating a future powered<br>by hybrid smart contracts</h2><br>
+        <div>
+            <button class="but2">Careers</button>
+            <button class="but3">Our research</button>
+        </div>
+    </div>
+    <div>
+        <!-- <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur libero blanditiis fugit veniam quos, repudiandae recusandae fugiat omnis fuga sapiente. Recusandae ipsum facilis dolorem voluptate at ea? Minima, fugit facilis.
+        </p>
+                                                                                              -->
+    </div> 
+    <aside id="aside">
+        <a href="#">Chainlink <span>Labs</span></a>
+        <ul>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Fellowship Program</a></li>
+
+            <li><a href="#">Startup with Chainlink</a></li>
+        </ul>
+        <button class="but1">See open roles</button>    
+    </aside>
+
+    
+    <script>
+         function toggleMenu() {
+        const element = document.getElementById('aside')
+
+        if (element.style.width == '') {
+            element.style.width = '300px'
+        } else {
+            element.style.width = ''
+        }
+    
+    }
+    </script>
+
+   
+
+</body>
+
+</html>

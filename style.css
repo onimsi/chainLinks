@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#ffff;
+
+}
+header{
+    background-color: rgb(55, 91, 210);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 170px;
+    width: auto;
+    
+    
+    
+}
+ ul li a:hover{
+    padding-bottom: 1px;
+    transition:3s;
+    color: #ffff;
+    text-decoration: underline;
+
+}
+header ul li{
+     display: inline-block;
+     padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.but1:hover{
+    color: blue;
+    background-color: rgb(203, 203, 242);
+    transition: 1s;
+}
+.but1{
+    border:none;
+    border-radius: 30px;
+   padding:12px 30px ; 
+   margin:30px 0;
+   background-color: #ffff;
+   font-weight: bold;
+
+}
+
+.notice{
+    text-align: center;
+    padding: 30px 20px;
+    background-color:#1a2b6b;
+    border: 0px dotted red;
+    position: sticky;
+    top: 0;
+}
+.max{
+    background-color:rgb(55, 91, 210);
+    padding:160px 20px ;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.max h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.max .but2{
+    min-width: 160px;
+    padding: 10px 30px;
+    border-radius:10px;
+    background-color: #ffff;
+    border: 1.5px solid #ffff;
+
+}
+.max .but3{
+    min-width: 160px;
+    padding: 10px 30px;
+    border-radius:10px;
+    border: 1.5px solid #ffff;
+    background-color: rgb(55, 91, 210);
+    color: #ffff;
+}
+
+/* .lorem{
+    margin: 1px 0 1px 0;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+} */
+.next{
+    display:none;
+}
+aside {
+    background:  rgb(55, 91, 210);
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0;
+    z-index: 9999;
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+}
+#aside ul li{
+    display: block;
+    color: white;
+    
+}
+
+@media (max-width: 1000px) and (min-width: 769px) {
+    header {
+        padding: 12px 30px;
+     
+    }
+}
+
+@media only screen and (max-width:768px){
+    header {
+        padding: 12px 14px;
+     
+    } 
+    ul, .but1{
+        display:none;
+    }
+
+    .next{
+        display: block;
+    }
+
+}
+
+
+
